@@ -9,7 +9,8 @@ const Index = () => {
       <section className="py-16 px-4 text-center bg-gradient-to-r from-blue-100 to-indigo-100">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl font-bold text-gray-800 mb-6 leading-tight">
-            Детская тревожность: как помочь ребёнку 💙
+            Не ругайте, а поймите: как воспитание может усугубить тревожность у
+            детей 💙
           </h1>
           <p className="text-xl text-gray-600 mb-8 max-w-2xl mx-auto">
             Практические советы для родителей о том, как поддержать тревожного
