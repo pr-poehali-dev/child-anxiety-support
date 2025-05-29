@@ -85,6 +85,24 @@ const Index = () => {
                   Отсканируйте QR-код
                 </p>
               </div>
+
+              <div className="bg-white p-6 rounded-lg shadow-md">
+                <h3 className="text-xl font-semibold mb-4 text-center">
+                  📞 Телефон доверия
+                </h3>
+                <div className="text-center">
+                  <a
+                    href="tel:88002000122"
+                    className="text-2xl font-bold text-blue-600 hover:text-blue-800 transition-colors"
+                  >
+                    8 800 2000 122
+                  </a>
+                  <p className="text-gray-600 text-sm mt-2">
+                    Для детей, подростков и родителей
+                  </p>
+                  <p className="text-gray-500 text-xs mt-1">Нижний Новгород</p>
+                </div>
+              </div>
             </div>
           </div>
         </section>
