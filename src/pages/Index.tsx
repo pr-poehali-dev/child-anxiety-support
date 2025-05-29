@@ -1,6 +1,13 @@
 import AnxietyContent from "@/components/AnxietyContent";
 import ParentingStylesTable from "@/components/ParentingStylesTable";
 import RecommendationsList from "@/components/RecommendationsList";
+import {
+  Carousel,
+  CarouselContent,
+  CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
+} from "@/components/ui/carousel";
 
 const Index = () => {
   return (
@@ -49,10 +56,98 @@ const Index = () => {
               <h3 className="font-semibold text-gray-800 mb-3">
                 Помощь специалистов
               </h3>
-              <p className="text-gray-600">
-                Телефоны доверия для родителей доступны в вашем регионе
-              </p>
+              <div className="text-center">
+                <a
+                  href="tel:88002000122"
+                  className="text-2xl font-bold text-blue-600 hover:text-blue-800 transition-colors"
+                >
+                  8 800 2000 122
+                </a>
+                <p className="text-gray-600 text-sm mt-2">
+                  Для детей, подростков и родителей
+                </p>
+              </div>
             </div>
+          </div>
+        </section>
+
+        {/* Gallery Section */}
+        <section className="bg-white rounded-2xl p-8 shadow-sm border">
+          <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
+            🎨 Наши работы
+          </h2>
+          <Carousel className="max-w-4xl mx-auto">
+            <CarouselContent>
+              <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                <div className="p-1">
+                  <img
+                    src="https://cdn.poehali.dev/files/d5c33aa9-f591-4899-af5d-d19afdf2f8b8.jpg"
+                    alt="Детская работа 1"
+                    className="w-full h-64 object-cover rounded-lg shadow-md"
+                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                <div className="p-1">
+                  <img
+                    src="https://cdn.poehali.dev/files/f580bf70-408d-43bc-aa8a-7bc3220c5588.jpg"
+                    alt="Детская работа 2"
+                    className="w-full h-64 object-cover rounded-lg shadow-md"
+                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                <div className="p-1">
+                  <img
+                    src="https://cdn.poehali.dev/files/4cf9ac09-4867-4b3a-b776-66e782428461.jpg"
+                    alt="Детская работа 3"
+                    className="w-full h-64 object-cover rounded-lg shadow-md"
+                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                <div className="p-1">
+                  <img
+                    src="https://cdn.poehali.dev/files/b7d0b3bf-79bd-415d-b505-36eb273f1979.jpg"
+                    alt="Детская работа 4"
+                    className="w-full h-64 object-cover rounded-lg shadow-md"
+                  />
+                </div>
+              </CarouselItem>
+              <CarouselItem className="md:basis-1/2 lg:basis-1/3">
+                <div className="p-1">
+                  <img
+                    src="https://cdn.poehali.dev/files/c5893768-f894-46ec-8f0d-4f951d7f6ef8.jpg"
+                    alt="Детская работа 5"
+                    className="w-full h-64 object-cover rounded-lg shadow-md"
+                  />
+                </div>
+              </CarouselItem>
+            </CarouselContent>
+            <CarouselPrevious />
+            <CarouselNext />
+          </Carousel>
+        </section>
+
+        {/* YouTube Playlist Section */}
+        <section className="bg-white rounded-2xl p-8 shadow-sm border">
+          <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
+            📺 Успокаивающие мультфильмы для детей
+          </h2>
+          <div className="max-w-4xl mx-auto">
+            <div className="relative w-full h-0 pb-[56.25%]">
+              <iframe
+                src="https://www.youtube.com/embed/videoseries?list=PLi-O4SCKt2IQAzzwQp595ybueeoeisyq-"
+                title="Успокаивающие мультфильмы для снижения тревожности"
+                className="absolute top-0 left-0 w-full h-full rounded-lg"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowFullScreen
+              />
+            </div>
+            <p className="text-gray-600 text-center mt-4">
+              Специально подобранные мультфильмы для снижения тревожности у
+              детей
+            </p>
           </div>
         </section>
 
