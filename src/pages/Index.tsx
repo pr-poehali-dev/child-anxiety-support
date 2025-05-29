@@ -11,9 +11,97 @@ import {
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50">
+    <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50 relative overflow-hidden">
+      {/* Анимированные фоновые элементы */}
+      <div className="fixed inset-0 pointer-events-none">
+        {/* Плавающие детские рисунки */}
+        <div className="floating-element top-20 left-10 float-1">
+          <div className="text-6xl">🎨</div>
+        </div>
+        <div className="floating-element top-32 right-20 float-2">
+          <div className="text-5xl">🖍️</div>
+        </div>
+        <div className="floating-element top-80 left-1/4 drift-1">
+          <div className="text-4xl">✏️</div>
+        </div>
+        <div className="floating-element top-96 right-1/3 bounce-1">
+          <div className="text-7xl">🌈</div>
+        </div>
+        <div className="floating-element top-1/2 left-20 swing-1">
+          <div className="text-5xl">🦋</div>
+        </div>
+        <div
+          className="floating-element bottom-40 right-10 float-1"
+          style={{ animationDelay: "2s" }}
+        >
+          <div className="text-6xl">🌸</div>
+        </div>
+        <div
+          className="floating-element bottom-20 left-1/3 float-2"
+          style={{ animationDelay: "4s" }}
+        >
+          <div className="text-4xl">🎈</div>
+        </div>
+
+        {/* Фоновые иллюстрации детских рисунков */}
+        <div className="background-illustration top-40 right-40">
+          <svg
+            width="200"
+            height="200"
+            viewBox="0 0 200 200"
+            className="text-blue-200 fill-current"
+          >
+            <circle cx="100" cy="70" r="40" />
+            <circle cx="85" cy="60" r="5" />
+            <circle cx="115" cy="60" r="5" />
+            <path
+              d="M 85 85 Q 100 95 115 85"
+              stroke="currentColor"
+              strokeWidth="3"
+              fill="none"
+            />
+            <rect x="80" y="110" width="40" height="60" />
+            <rect x="60" y="130" width="20" height="40" />
+            <rect x="120" y="130" width="20" height="40" />
+          </svg>
+        </div>
+
+        <div className="background-illustration bottom-60 left-40 swing-1">
+          <svg
+            width="150"
+            height="150"
+            viewBox="0 0 150 150"
+            className="text-green-200 fill-current"
+          >
+            <circle cx="75" cy="120" r="25" fill="brown" />
+            <polygon points="75,20 45,100 105,100" fill="green" />
+            <circle cx="40" cy="40" r="15" fill="yellow" />
+            <polygon points="35,35 45,35 40,25" fill="yellow" />
+            <polygon points="35,45 45,45 40,55" fill="yellow" />
+            <polygon points="25,40 35,40 30,30" fill="yellow" />
+            <polygon points="45,40 55,40 50,30" fill="yellow" />
+          </svg>
+        </div>
+
+        <div className="background-illustration top-60 left-60 drift-1">
+          <svg
+            width="180"
+            height="120"
+            viewBox="0 0 180 120"
+            className="text-purple-200 fill-current"
+          >
+            <rect x="20" y="60" width="140" height="40" />
+            <polygon points="20,60 90,20 160,60" />
+            <rect x="40" y="80" width="15" height="20" />
+            <rect x="65" y="75" width="20" height="15" />
+            <rect x="95" y="75" width="20" height="15" />
+            <rect x="125" y="80" width="15" height="20" />
+          </svg>
+        </div>
+      </div>
+
       {/* Hero Section */}
-      <section className="py-16 px-4 text-center bg-gradient-to-r from-blue-100 to-indigo-100">
+      <section className="py-16 px-4 text-center bg-gradient-to-r from-blue-100 to-indigo-100 relative z-10">
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl font-bold text-gray-800 mb-6 leading-tight">
             Не ругайте, а поймите: как воспитание может усугубить тревожность у
@@ -33,14 +121,22 @@ const Index = () => {
       </section>
 
       {/* Main Content */}
-      <div className="max-w-6xl mx-auto px-4 py-12 space-y-16">
+      <div className="max-w-6xl mx-auto px-4 py-12 space-y-16 relative z-10">
         <AnxietyContent />
         <ParentingStylesTable />
         <RecommendationsList />
 
         {/* Additional Resources */}
-        <section className="bg-white rounded-2xl p-8 shadow-sm border">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6">
+        <section className="bg-white rounded-2xl p-8 shadow-sm border relative overflow-hidden">
+          {/* Декоративные элементы в видео секции */}
+          <div className="absolute top-4 left-4 text-2xl opacity-20 bounce-1">
+            🎬
+          </div>
+          <div className="absolute bottom-4 right-4 text-xl opacity-20 drift-1">
+            🌟
+          </div>
+
+          <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center relative z-10">
             📚 Дополнительные материалы
           </h2>
           <div className="grid md:grid-cols-2 gap-6">
@@ -72,8 +168,16 @@ const Index = () => {
         </section>
 
         {/* Gallery Section */}
-        <section className="bg-white rounded-2xl p-8 shadow-sm border">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
+        <section className="bg-white rounded-2xl p-8 shadow-sm border relative overflow-hidden">
+          {/* Декоративные элементы в галерее */}
+          <div className="absolute top-4 left-4 text-2xl opacity-20 swing-1">
+            🎭
+          </div>
+          <div className="absolute top-4 right-4 text-2xl opacity-20 float-2">
+            🖼️
+          </div>
+
+          <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center relative z-10">
             🎨 Наши работы
           </h2>
           <Carousel className="max-w-4xl mx-auto">
@@ -130,8 +234,16 @@ const Index = () => {
         </section>
 
         {/* YouTube Playlist Section */}
-        <section className="bg-white rounded-2xl p-8 shadow-sm border">
-          <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
+        <section className="bg-white rounded-2xl p-8 shadow-sm border relative overflow-hidden">
+          {/* Декоративные элементы в галерее */}
+          <div className="absolute top-4 left-4 text-2xl opacity-20 swing-1">
+            🎭
+          </div>
+          <div className="absolute top-4 right-4 text-2xl opacity-20 float-2">
+            🖼️
+          </div>
+
+          <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center relative z-10">
             📺 Успокаивающие мультфильмы для детей
           </h2>
           <div className="max-w-4xl mx-auto">
