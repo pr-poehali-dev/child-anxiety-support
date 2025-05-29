@@ -286,7 +286,7 @@ const Index = () => {
                 <img
                   src="https://cdn.poehali.dev/files/465e0f64-788e-4c03-ab03-459e50cb18d5.jpg"
                   alt="QR код для прохождения опроса"
-                  className="w-32 h-32 md:w-40 md:h-40 px-0 my-[7px] mx-1.5"
+                  className="w-32 h-32 md:w-40 md:h-40 px-0 my-[7px] mx-3"
                 />
                 <p className="text-center text-gray-600 text-sm mt-2 font-medium">
                   Отсканируйте QR-код
@@ -294,7 +294,7 @@ const Index = () => {
               </div>
 
               <div className="bg-white p-6 rounded-lg shadow-md py-6 my-[13px]">
-                <h3 className="text-xl font-semibold mb-4 text-center">
+                <h3 className="text-xl font-semibold text-center px-0 py-0 my-0 text-zinc-700">
                   📞 Телефон доверия
                 </h3>
                 <div className="text-center">
