@@ -275,7 +275,9 @@ const Index = () => {
                 работы с тревожностью вашего ребёнка
               </p>
               <a
-                href="#"
+                href="https://docs.google.com/forms/d/e/1FAIpQLSc34ascndzP4njjY4qpH0dsDM2S_HJekOg13_qu6ZhE0ls57w/viewform?usp=header"
+                target="_blank"
+                rel="noopener noreferrer"
                 className="inline-block bg-white text-indigo-600 font-semibold px-8 py-3 rounded-full hover:bg-indigo-50 transition-colors duration-200 shadow-md"
               >
                 Пройти опрос →
