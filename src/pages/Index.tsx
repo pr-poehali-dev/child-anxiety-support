@@ -265,9 +265,9 @@ const Index = () => {
 
         {/* Survey Call-to-Action Section */}
         <section className="bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl p-8 text-white shadow-lg">
-          <div className="flex flex-col md:flex-row items-center justify-between gap-8">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-8 py-1.5">
             <div className="flex-1 text-center md:text-left">
-              <h2 className="text-3xl font-bold mb-4">
+              <h2 className="text-3xl font-bold my-[3px]">
                 🎯 Узнай свой стиль воспитания
               </h2>
               <p className="text-lg text-indigo-100 mb-6">
@@ -282,18 +282,18 @@ const Index = () => {
               </a>
             </div>
             <div className="flex-shrink-0">
-              <div className="bg-white p-4 rounded-2xl shadow-lg">
+              <div className="bg-white p-4 rounded-2xl shadow-lg my-0 px-[50px] mx-0 py-1.5">
                 <img
                   src="https://cdn.poehali.dev/files/465e0f64-788e-4c03-ab03-459e50cb18d5.jpg"
                   alt="QR код для прохождения опроса"
-                  className="w-32 h-32 md:w-40 md:h-40"
+                  className="w-32 h-32 md:w-40 md:h-40 px-0 my-[7px] mx-1.5"
                 />
                 <p className="text-center text-gray-600 text-sm mt-2 font-medium">
                   Отсканируйте QR-код
                 </p>
               </div>
 
-              <div className="bg-white p-6 rounded-lg shadow-md">
+              <div className="bg-white p-6 rounded-lg shadow-md py-6 my-[13px]">
                 <h3 className="text-xl font-semibold mb-4 text-center">
                   📞 Телефон доверия
                 </h3>
