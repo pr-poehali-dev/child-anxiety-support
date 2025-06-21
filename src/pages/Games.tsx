@@ -157,30 +157,116 @@ const Games = () => {
             перед сном
           </p>
           <div className="bg-white rounded-xl p-6 shadow-sm">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-              <div className="relative aspect-video rounded-lg overflow-hidden">
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+              <div className="aspect-video">
                 <iframe
                   src="https://rutube.ru/play/embed/b6652d6ca354fc851896fe6cc19bd84f"
                   width="100%"
                   height="100%"
-                  allow="clipboard-write; autoplay"
-                  webkitAllowFullScreen
-                  mozallowfullscreen
+                  frameBorder="0"
                   allowFullScreen
-                  className="absolute inset-0"
-                />
+                  className="rounded-lg"
+                ></iframe>
               </div>
-              <div className="relative aspect-video rounded-lg overflow-hidden">
+              <div className="aspect-video">
                 <iframe
                   src="https://rutube.ru/play/embed/1c4b35a9fdb3aa4a12df8da4dcb26be1"
                   width="100%"
                   height="100%"
-                  allow="clipboard-write; autoplay"
-                  webkitAllowFullScreen
-                  mozallowfullscreen
+                  frameBorder="0"
                   allowFullScreen
-                  className="absolute inset-0"
-                />
+                  className="rounded-lg"
+                ></iframe>
+              </div>
+              <div className="aspect-video">
+                <iframe
+                  src="https://rutube.ru/play/embed/adf7f7c8ed6b84a2f7a1b4582c11a0e0/?playlist=603566"
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                  allowFullScreen
+                  className="rounded-lg"
+                ></iframe>
+              </div>
+              <div className="aspect-video">
+                <iframe
+                  src="https://rutube.ru/play/embed/c3f6c1a4d3e0be62b0e6e8d7a2a3f4e8/?playlist=603566"
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                  allowFullScreen
+                  className="rounded-lg"
+                ></iframe>
+              </div>
+              <div className="aspect-video">
+                <iframe
+                  src="https://rutube.ru/play/embed/08671e0933725690cf4cd9b6374947fd/?playlist=603566"
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                  allowFullScreen
+                  className="rounded-lg"
+                ></iframe>
+              </div>
+              <div className="aspect-video">
+                <iframe
+                  src="https://rutube.ru/play/embed/d4a0681187d5f16f483568606ac83171/?playlist=603566"
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                  allowFullScreen
+                  className="rounded-lg"
+                ></iframe>
+              </div>
+              <div className="aspect-video">
+                <iframe
+                  src="https://rutube.ru/play/embed/7c822183caebe3fe9145162edb141218/?playlist=603566"
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                  allowFullScreen
+                  className="rounded-lg"
+                ></iframe>
+              </div>
+              <div className="aspect-video">
+                <iframe
+                  src="https://rutube.ru/play/embed/c213d8aa14767f4b8a99a839faa978fc/?playlist=603566"
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                  allowFullScreen
+                  className="rounded-lg"
+                ></iframe>
+              </div>
+              <div className="aspect-video">
+                <iframe
+                  src="https://rutube.ru/play/embed/8c281deb679b842603634ab2cb4156a6/?playlist=603566"
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                  allowFullScreen
+                  className="rounded-lg"
+                ></iframe>
+              </div>
+              <div className="aspect-video">
+                <iframe
+                  src="https://rutube.ru/play/embed/27dddc9161a20373d0b7e0d3177b295b/?playlist=603566"
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                  allowFullScreen
+                  className="rounded-lg"
+                ></iframe>
+              </div>
+              <div className="aspect-video">
+                <iframe
+                  src="https://rutube.ru/play/embed/00d071eae9adf2b249b8f3d398f9a568/?playlist=603566"
+                  width="100%"
+                  height="100%"
+                  frameBorder="0"
+                  allowFullScreen
+                  className="rounded-lg"
+                ></iframe>
               </div>
             </div>
             <div className="flex items-center justify-between text-sm text-gray-600">
