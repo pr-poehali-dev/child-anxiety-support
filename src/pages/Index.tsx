@@ -193,7 +193,7 @@ const Index = () => {
           </div>
 
           <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center relative z-10">
-            🎨 Наши работы
+            🎨 В объективе дети
           </h2>
           <Carousel className="max-w-4xl mx-auto">
             <CarouselContent>
