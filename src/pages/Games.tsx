@@ -157,16 +157,31 @@ const Games = () => {
             перед сном
           </p>
           <div className="bg-white rounded-xl p-6 shadow-sm">
-            <div className="aspect-video rounded-lg overflow-hidden bg-gray-100 mb-4">
-              <iframe
-                src="https://rutube.ru/play/embed/pl/603566/"
-                width="100%"
-                height="100%"
-                frameBorder="0"
-                allow="clipboard-write; autoplay"
-                allowFullScreen
-                className="w-full h-full"
-              ></iframe>
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="relative aspect-video rounded-lg overflow-hidden">
+                <iframe
+                  src="https://rutube.ru/play/embed/b6652d6ca354fc851896fe6cc19bd84f"
+                  width="100%"
+                  height="100%"
+                  allow="clipboard-write; autoplay"
+                  webkitAllowFullScreen
+                  mozallowfullscreen
+                  allowFullScreen
+                  className="absolute inset-0"
+                />
+              </div>
+              <div className="relative aspect-video rounded-lg overflow-hidden">
+                <iframe
+                  src="https://rutube.ru/play/embed/1c4b35a9fdb3aa4a12df8da4dcb26be1"
+                  width="100%"
+                  height="100%"
+                  allow="clipboard-write; autoplay"
+                  webkitAllowFullScreen
+                  mozallowfullscreen
+                  allowFullScreen
+                  className="absolute inset-0"
+                />
+              </div>
             </div>
             <div className="flex items-center justify-between text-sm text-gray-600">
               <span>🎭 Плейлист успокаивающих мультфильмов</span>
