@@ -51,6 +51,10 @@ const Gallery = () => {
       id: 11,
       url: "https://cdn.poehali.dev/files/a83b78f6-ada3-49bc-86c2-6eea53e83030.jpg",
     },
+    {
+      id: 12,
+      url: "https://cdn.poehali.dev/files/e8fba49b-6b4e-4b50-9345-183aa8af912e.jpg",
+    },
   ];
 
   return (
