@@ -131,39 +131,6 @@ const Index = () => {
           <ParentingStylesTable />
         </div>
 
-        {/* YouTube Playlist Section */}
-        <section
-          id="cartoons"
-          className="bg-white rounded-2xl p-8 shadow-sm border relative overflow-hidden"
-        >
-          {/* Декоративные элементы в галерее */}
-          <div className="absolute top-4 left-4 text-2xl opacity-20 swing-1">
-            🎭
-          </div>
-          <div className="absolute top-4 right-4 text-2xl opacity-20 float-2">
-            🖼️
-          </div>
-
-          <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center relative z-10">
-            📺 Успокаивающие мультфильмы для детей
-          </h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="relative w-full h-0 pb-[56.25%]">
-              <iframe
-                src="https://www.youtube.com/embed/videoseries?list=PLi-O4SCKt2IQAzzwQp595ybueeoeisyq-"
-                title="Успокаивающие мультфильмы для снижения тревожности"
-                className="absolute top-0 left-0 w-full h-full rounded-lg"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
-            </div>
-            <p className="text-gray-600 text-center mt-4">
-              Специально подобранные мультфильмы для снижения тревожности у
-              детей
-            </p>
-          </div>
-        </section>
-
         {/* Survey Call-to-Action Section */}
         <section className="bg-gradient-to-r from-indigo-500 to-purple-600 rounded-2xl p-8 text-white shadow-lg">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8 py-1.5">

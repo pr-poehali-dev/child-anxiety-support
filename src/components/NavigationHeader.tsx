@@ -29,7 +29,7 @@ const NavigationHeader = () => {
     { id: "parenting-styles", label: "Стили воспитания" },
     { type: "link", href: "/recommendations", label: "Рекомендации" },
     { type: "link", href: "/gallery", label: "Наши дети" },
-    { id: "cartoons", label: "Мультфильмы" },
+    { type: "link", href: "/games", label: "Игры и мультфильмы" },
   ];
 
   return (
