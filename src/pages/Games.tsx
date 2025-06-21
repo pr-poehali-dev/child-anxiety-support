@@ -143,34 +143,44 @@ const Games = () => {
           </p>
         </div>
 
-        {/* Cartoon Videos Section */}
-        <section className="bg-white rounded-2xl p-8 shadow-sm border mb-12">
-          <div className="absolute top-4 left-4 text-2xl opacity-20 swing-1">
-            🎭
-          </div>
-          <div className="absolute top-4 right-4 text-2xl opacity-20 float-2">
-            🖼️
-          </div>
-
-          <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center">
-            📺 Успокаивающие мультфильмы для детей
-          </h2>
-          <div className="max-w-4xl mx-auto">
-            <div className="relative w-full h-0 pb-[56.25%]">
-              <iframe
-                src="https://www.youtube.com/embed/videoseries?list=PLi-O4SCKt2IQAzzwQp595ybueeoeisyq-"
-                title="Успокаивающие мультфильмы для снижения тревожности"
-                className="absolute top-0 left-0 w-full h-full rounded-lg"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                allowFullScreen
-              />
+        <div className="bg-gradient-to-br from-purple-50 to-pink-50 rounded-2xl p-8 shadow-lg">
+          <div className="flex items-center gap-3 mb-6">
+            <div className="w-12 h-12 bg-gradient-to-br from-purple-500 to-pink-500 rounded-xl flex items-center justify-center">
+              <span className="text-2xl">🎬</span>
             </div>
-            <p className="text-gray-600 text-center mt-4">
-              Специально подобранные мультфильмы для снижения тревожности у
-              детей
-            </p>
+            <h2 className="text-2xl font-bold text-gray-800">
+              Успокаивающие мультфильмы для детей
+            </h2>
           </div>
-        </section>
+          <p className="text-gray-600 mb-6 leading-relaxed">
+            Специально подобранные мультфильмы для расслабления и успокоения
+            перед сном
+          </p>
+          <div className="bg-white rounded-xl p-6 shadow-sm">
+            <div className="aspect-video rounded-lg overflow-hidden bg-gray-100 mb-4">
+              <iframe
+                src="https://rutube.ru/play/embed/pl/603566/"
+                width="100%"
+                height="100%"
+                frameBorder="0"
+                allow="clipboard-write; autoplay"
+                allowFullScreen
+                className="w-full h-full"
+              ></iframe>
+            </div>
+            <div className="flex items-center justify-between text-sm text-gray-600">
+              <span>🎭 Плейлист успокаивающих мультфильмов</span>
+              <a
+                href="https://rutube.ru/plst/603566/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-purple-600 hover:text-purple-700 font-medium"
+              >
+                Смотреть на Rutube →
+              </a>
+            </div>
+          </div>
+        </div>
 
         {/* Psychological Games */}
         <section className="mb-12">
