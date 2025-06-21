@@ -68,6 +68,26 @@ const Recommendations = () => {
                 <li>• "Не упускайте своих детей" Г. Ньюфелд</li>
               </ul>
             </div>
+
+            <div className="bg-purple-50 rounded-lg p-6">
+              <h3 className="font-semibold text-gray-800 mb-3">
+                🧠 Советы от психолога
+              </h3>
+              <p className="text-gray-600 mb-3">
+                Профессиональные рекомендации по работе с тревожными детьми
+              </p>
+              <a
+                href="https://www.defectologiya.pro/zhurnal/trevozhnyij_rebenok_chto_delat_rekomendaczii_psixologa/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-purple-600 hover:text-purple-800 font-medium underline transition-colors"
+              >
+                Читать статью →
+              </a>
+            </div>
+          </div>
+
+          <div className="grid md:grid-cols-1 gap-6 mb-8">
             <div className="bg-green-50 rounded-lg p-6">
               <h3 className="font-semibold text-gray-800 mb-3">
                 🎯 Техники снижения тревожности
