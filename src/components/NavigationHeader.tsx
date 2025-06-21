@@ -28,7 +28,7 @@ const NavigationHeader = () => {
     { id: "anxiety-signs", label: "Признаки тревожности" },
     { id: "parenting-styles", label: "Стили воспитания" },
     { type: "link", href: "/recommendations", label: "Рекомендации" },
-    { id: "gallery", label: "Галерея работ" },
+    { type: "link", href: "/gallery", label: "Наши дети" },
     { id: "cartoons", label: "Мультфильмы" },
   ];
 
