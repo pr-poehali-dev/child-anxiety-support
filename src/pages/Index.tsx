@@ -1,7 +1,6 @@
 import NavigationHeader from "@/components/NavigationHeader";
 import AnxietyContent from "@/components/AnxietyContent";
 import ParentingStylesTable from "@/components/ParentingStylesTable";
-import RecommendationsList from "@/components/RecommendationsList";
 import {
   Carousel,
   CarouselContent,
@@ -131,54 +130,6 @@ const Index = () => {
         <div id="parenting-styles">
           <ParentingStylesTable />
         </div>
-        <div id="recommendations">
-          <RecommendationsList />
-        </div>
-
-        {/* Additional Resources */}
-        <section
-          id="gallery"
-          className="bg-white rounded-2xl p-8 shadow-sm border relative overflow-hidden"
-        >
-          {/* Декоративные элементы в видео секции */}
-          <div className="absolute top-4 left-4 text-2xl opacity-20 bounce-1">
-            🎬
-          </div>
-          <div className="absolute bottom-4 right-4 text-xl opacity-20 drift-1">
-            🌟
-          </div>
-
-          <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center relative z-10">
-            📚 Дополнительные материалы
-          </h2>
-          <div className="grid md:grid-cols-2 gap-6">
-            <div className="bg-blue-50 rounded-lg p-6">
-              <h3 className="font-semibold text-gray-800 mb-3">
-                Рекомендуемая литература
-              </h3>
-              <p className="text-gray-600">
-                "Тревожный ребёнок" Ю. Гиппенрейтер
-              </p>
-            </div>
-            <div className="bg-green-50 rounded-lg p-6">
-              <h3 className="font-semibold text-gray-800 mb-3">
-                Помощь специалистов
-              </h3>
-              <div className="text-center">
-                <a
-                  href="tel:88002000122"
-                  className="text-2xl font-bold text-blue-600 hover:text-blue-800 transition-colors"
-                >
-                  8 800 2000 122
-                </a>
-                <p className="text-gray-600 text-sm mt-2">
-                  Для детей, подростков и родителей
-                </p>
-              </div>
-            </div>
-          </div>
-        </section>
-
         {/* Gallery Section */}
         <section
           id="gallery"
