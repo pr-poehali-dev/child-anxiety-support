@@ -41,6 +41,41 @@ const Recommendations = () => {
           <RecommendationsList />
         </div>
 
+        {/* Useful Information */}
+        <section className="bg-white rounded-2xl p-8 shadow-sm border relative overflow-hidden">
+          <div className="absolute top-4 left-4 text-2xl opacity-20 bounce-1">
+            💾
+          </div>
+          <div className="absolute bottom-4 right-4 text-xl opacity-20 drift-1">
+            📁
+          </div>
+
+          <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center relative z-10">
+            💾 Полезная информация
+          </h2>
+
+          <div className="max-w-md mx-auto">
+            <div className="bg-gradient-to-r from-blue-100 to-green-100 rounded-lg p-6 text-center">
+              <div className="text-4xl mb-4">📁</div>
+              <h3 className="font-semibold text-gray-800 mb-3">
+                Материалы для скачивания
+              </h3>
+              <p className="text-gray-600 mb-4">
+                Дополнительные ресурсы, методички и практические материалы для
+                работы с детской тревожностью
+              </p>
+              <a
+                href="https://disk.yandex.ru/d/-ooT05o_TOpaMw"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-full hover:bg-blue-700 transition-colors duration-200 shadow-md"
+              >
+                Открыть Яндекс.Диск →
+              </a>
+            </div>
+          </div>
+        </section>
+
         {/* Additional Resources */}
         <section
           id="additional-materials"
