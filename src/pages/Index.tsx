@@ -1,3 +1,4 @@
+import NavigationHeader from "@/components/NavigationHeader";
 import AnxietyContent from "@/components/AnxietyContent";
 import ParentingStylesTable from "@/components/ParentingStylesTable";
 import RecommendationsList from "@/components/RecommendationsList";
@@ -12,6 +13,8 @@ import {
 const Index = () => {
   return (
     <div className="min-h-screen bg-gradient-to-br from-blue-50 to-green-50 relative overflow-hidden">
+      <NavigationHeader />
+
       {/* Анимированные фоновые элементы */}
       <div className="fixed inset-0 pointer-events-none">
         {/* Плавающие детские рисунки */}
@@ -122,12 +125,21 @@ const Index = () => {
 
       {/* Main Content */}
       <div className="max-w-6xl mx-auto px-4 py-12 space-y-16 relative z-10">
-        <AnxietyContent />
-        <ParentingStylesTable />
-        <RecommendationsList />
+        <div id="anxiety-signs">
+          <AnxietyContent />
+        </div>
+        <div id="parenting-styles">
+          <ParentingStylesTable />
+        </div>
+        <div id="recommendations">
+          <RecommendationsList />
+        </div>
 
         {/* Additional Resources */}
-        <section className="bg-white rounded-2xl p-8 shadow-sm border relative overflow-hidden">
+        <section
+          id="gallery"
+          className="bg-white rounded-2xl p-8 shadow-sm border relative overflow-hidden"
+        >
           {/* Декоративные элементы в видео секции */}
           <div className="absolute top-4 left-4 text-2xl opacity-20 bounce-1">
             🎬
@@ -168,7 +180,10 @@ const Index = () => {
         </section>
 
         {/* Gallery Section */}
-        <section className="bg-white rounded-2xl p-8 shadow-sm border relative overflow-hidden">
+        <section
+          id="gallery"
+          className="bg-white rounded-2xl p-8 shadow-sm border relative overflow-hidden"
+        >
           {/* Декоративные элементы в галерее */}
           <div className="absolute top-4 left-4 text-2xl opacity-20 swing-1">
             🎭
@@ -234,7 +249,10 @@ const Index = () => {
         </section>
 
         {/* YouTube Playlist Section */}
-        <section className="bg-white rounded-2xl p-8 shadow-sm border relative overflow-hidden">
+        <section
+          id="cartoons"
+          className="bg-white rounded-2xl p-8 shadow-sm border relative overflow-hidden"
+        >
           {/* Декоративные элементы в галерее */}
           <div className="absolute top-4 left-4 text-2xl opacity-20 swing-1">
             🎭
