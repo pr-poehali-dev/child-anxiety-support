@@ -10,38 +10,26 @@ const Gallery = () => {
     {
       id: 1,
       url: "https://cdn.poehali.dev/files/a2c3df8a-b11d-4c57-a308-b0e18e586e40.jpg",
-      title: "Урок с интерактивной доской",
-      description: "Дети изучают животных с помощью современных технологий",
     },
     {
       id: 2,
-      url: "https://images.unsplash.com/photo-1544776527-d0bf49bbc0e8?w=800&h=600&fit=crop",
-      title: "Творческие занятия",
-      description: "Развитие креативности через рисование и лепку",
+      url: "https://cdn.poehali.dev/files/8172abc0-befa-437f-bcea-b39d696a75ee.jpg",
     },
     {
       id: 3,
-      url: "https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?w=800&h=600&fit=crop",
-      title: "Игровая деятельность",
-      description: "Социализация через совместные игры",
+      url: "https://cdn.poehali.dev/files/8c835420-0662-4dad-a83f-2828a18b387a.jpg",
     },
     {
       id: 4,
-      url: "https://images.unsplash.com/photo-1566004100631-35d015d6a491?w=800&h=600&fit=crop",
-      title: "Музыкальные занятия",
-      description: "Развитие эмоционального интеллекта через музыку",
+      url: "https://cdn.poehali.dev/files/d5c2bd07-a678-4b75-abc5-893e0cbee58d.jpg",
     },
     {
       id: 5,
-      url: "https://images.unsplash.com/photo-1587654780291-39c9404d746b?w=800&h=600&fit=crop",
-      title: "Физическая активность",
-      description: "Здоровый образ жизни с раннего возраста",
+      url: "https://cdn.poehali.dev/files/3f5e6e4f-6088-4290-bef0-f7b484ff1538.jpg",
     },
     {
       id: 6,
-      url: "https://images.unsplash.com/photo-1503676260728-1c00da094a0b?w=800&h=600&fit=crop",
-      title: "Чтение и развитие речи",
-      description: "Формирование любви к книгам и знаниям",
+      url: "https://cdn.poehali.dev/files/53029137-6ec3-4f97-b804-5a0e89a29551.jpg",
     },
   ];
 
@@ -69,15 +57,9 @@ const Gallery = () => {
               <div className="aspect-[4/3] overflow-hidden">
                 <img
                   src={photo.url}
-                  alt={photo.title}
+                  alt="Фото из детского сада"
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
-              </div>
-              <div className="p-4">
-                <h3 className="font-semibold text-gray-800 mb-2">
-                  {photo.title}
-                </h3>
-                <p className="text-sm text-gray-600">{photo.description}</p>
               </div>
               <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300 flex items-center justify-center opacity-0 group-hover:opacity-100">
                 <div className="bg-white/90 rounded-full p-3">
