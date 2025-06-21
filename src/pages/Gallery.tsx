@@ -31,6 +31,26 @@ const Gallery = () => {
       id: 6,
       url: "https://cdn.poehali.dev/files/53029137-6ec3-4f97-b804-5a0e89a29551.jpg",
     },
+    {
+      id: 7,
+      url: "https://cdn.poehali.dev/files/3c1e9803-0f7c-4c4d-a89c-4439f7c2d354.jpg",
+    },
+    {
+      id: 8,
+      url: "https://cdn.poehali.dev/files/7d65cd87-16c4-47b0-b4da-3ba9b30609d1.jpg",
+    },
+    {
+      id: 9,
+      url: "https://cdn.poehali.dev/files/bd3fe91e-8500-4222-9ad3-6f4ce5be4021.jpg",
+    },
+    {
+      id: 10,
+      url: "https://cdn.poehali.dev/files/a01a68c0-fba3-4d20-8fba-29f6c2d63cd1.jpg",
+    },
+    {
+      id: 11,
+      url: "https://cdn.poehali.dev/files/a83b78f6-ada3-49bc-86c2-6eea53e83030.jpg",
+    },
   ];
 
   return (
