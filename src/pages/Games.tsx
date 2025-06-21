@@ -208,16 +208,7 @@ const Games = () => {
                   className="rounded-lg"
                 ></iframe>
               </div>
-              <div className="aspect-video">
-                <iframe
-                  src="https://rutube.ru/play/embed/c213d8aa14767f4b8a99a839faa978fc"
-                  width="100%"
-                  height="100%"
-                  frameBorder="0"
-                  allowFullScreen
-                  className="rounded-lg"
-                ></iframe>
-              </div>
+
               <div className="aspect-video">
                 <iframe
                   src="https://rutube.ru/play/embed/c213d8aa14767f4b8a99a839faa978fc/?playlist=603566"
