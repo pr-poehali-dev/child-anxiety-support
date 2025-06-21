@@ -180,7 +180,7 @@ const Games = () => {
               </div>
               <div className="aspect-video">
                 <iframe
-                  src="https://rutube.ru/play/embed/adf7f7c8ed6b84a2f7a1b4582c11a0e0/?playlist=603566"
+                  src="https://rutube.ru/play/embed/08671e0933725690cf4cd9b6374947fd"
                   width="100%"
                   height="100%"
                   frameBorder="0"
@@ -190,7 +190,7 @@ const Games = () => {
               </div>
               <div className="aspect-video">
                 <iframe
-                  src="https://rutube.ru/play/embed/c3f6c1a4d3e0be62b0e6e8d7a2a3f4e8/?playlist=603566"
+                  src="https://rutube.ru/play/embed/d4a0681187d5f16f483568606ac83171"
                   width="100%"
                   height="100%"
                   frameBorder="0"
@@ -200,7 +200,7 @@ const Games = () => {
               </div>
               <div className="aspect-video">
                 <iframe
-                  src="https://rutube.ru/play/embed/08671e0933725690cf4cd9b6374947fd/?playlist=603566"
+                  src="https://rutube.ru/play/embed/7c822183caebe3fe9145162edb141218"
                   width="100%"
                   height="100%"
                   frameBorder="0"
@@ -210,17 +210,7 @@ const Games = () => {
               </div>
               <div className="aspect-video">
                 <iframe
-                  src="https://rutube.ru/play/embed/d4a0681187d5f16f483568606ac83171/?playlist=603566"
-                  width="100%"
-                  height="100%"
-                  frameBorder="0"
-                  allowFullScreen
-                  className="rounded-lg"
-                ></iframe>
-              </div>
-              <div className="aspect-video">
-                <iframe
-                  src="https://rutube.ru/play/embed/7c822183caebe3fe9145162edb141218/?playlist=603566"
+                  src="https://rutube.ru/play/embed/c213d8aa14767f4b8a99a839faa978fc"
                   width="100%"
                   height="100%"
                   frameBorder="0"
