@@ -87,7 +87,7 @@ const Recommendations = () => {
             </div>
           </div>
 
-          <div className="grid md:grid-cols-1 gap-6 mb-8">
+          <div className="grid md:grid-cols-2 gap-6 mb-8">
             <div className="bg-green-50 rounded-lg p-6">
               <h3 className="font-semibold text-gray-800 mb-3">
                 🎯 Техники снижения тревожности
@@ -98,26 +98,26 @@ const Recommendations = () => {
                 <li>• Прогрессивная мышечная релаксация</li>
               </ul>
             </div>
-          </div>
 
-          <div className="bg-gradient-to-r from-blue-100 to-indigo-100 rounded-lg p-6">
-            <h3 className="font-semibold text-gray-800 mb-3 text-center">
-              📞 Помощь специалистов
-            </h3>
-            <div className="text-center">
-              <a
-                href="tel:88002000122"
-                className="text-3xl font-bold text-blue-600 hover:text-blue-800 transition-colors"
-              >
-                8 800 2000 122
-              </a>
-              <p className="text-gray-600 mt-2">
-                Единый общероссийский номер детского телефона доверия
-              </p>
-              <p className="text-gray-500 text-sm mt-1">
-                Для детей, подростков и родителей • Круглосуточно • Анонимно •
-                Бесплатно
-              </p>
+            <div className="bg-gradient-to-r from-blue-100 to-indigo-100 rounded-lg p-6">
+              <h3 className="font-semibold text-gray-800 mb-3 text-center">
+                📞 Помощь специалистов
+              </h3>
+              <div className="text-center">
+                <a
+                  href="tel:88002000122"
+                  className="text-3xl font-bold text-blue-600 hover:text-blue-800 transition-colors"
+                >
+                  8 800 2000 122
+                </a>
+                <p className="text-gray-600 mt-2">
+                  Единый общероссийский номер детского телефона доверия
+                </p>
+                <p className="text-gray-500 text-sm mt-1">
+                  Для детей, подростков и родителей • Круглосуточно • Анонимно •
+                  Бесплатно
+                </p>
+              </div>
             </div>
           </div>
         </section>
