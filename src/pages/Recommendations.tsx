@@ -54,7 +54,7 @@ const Recommendations = () => {
             💾 Полезная информация
           </h2>
 
-          <div className="max-w-md mx-auto">
+          <div className="grid md:grid-cols-2 gap-6 max-w-4xl mx-auto">
             <div className="bg-gradient-to-r from-blue-100 to-green-100 rounded-lg p-6 text-center">
               <div className="text-4xl mb-4">📁</div>
               <h3 className="font-semibold text-gray-800 mb-3">
@@ -69,6 +69,22 @@ const Recommendations = () => {
                 target="_blank"
                 rel="noopener noreferrer"
                 className="inline-block bg-blue-600 text-white font-semibold px-6 py-3 rounded-full hover:bg-blue-700 transition-colors duration-200 shadow-md"
+              >
+                Открыть Яндекс.Диск →
+              </a>
+            </div>
+
+            <div className="bg-gradient-to-r from-purple-100 to-pink-100 rounded-lg p-6 text-center">
+              <div className="text-4xl mb-4">🎮</div>
+              <h3 className="font-bold text-gray-800 mb-3">Играем вместе</h3>
+              <p className="text-gray-600 mb-4">
+                Развиваем знания и весело проводим время вместе!
+              </p>
+              <a
+                href="https://disk.yandex.ru/d/pXHxo_Mjgk-lFQ"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-block bg-purple-600 text-white font-semibold px-6 py-3 rounded-full hover:bg-purple-700 transition-colors duration-200 shadow-md"
               >
                 Открыть Яндекс.Диск →
               </a>
