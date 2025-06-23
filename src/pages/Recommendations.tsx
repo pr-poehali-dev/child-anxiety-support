@@ -84,7 +84,7 @@ const Recommendations = () => {
                 href="https://disk.yandex.ru/d/pXHxo_Mjgk-lFQ"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="inline-block bg-purple-600 text-white font-semibold px-6 py-3 rounded-full hover:bg-purple-700 transition-colors duration-200 shadow-md"
+                className="inline-block bg-purple-600 text-white font-semibold px-6 rounded-full hover:bg-purple-700 transition-colors duration-200 shadow-md my-[22px] py-[13px]"
               >
                 Открыть Яндекс.Диск →
               </a>
