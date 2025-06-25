@@ -92,6 +92,210 @@ const Recommendations = () => {
           </div>
         </section>
 
+        {/* Video Materials for Parents */}
+        <section className="bg-white rounded-2xl p-8 shadow-sm border relative overflow-hidden mb-8">
+          <div className="absolute top-4 left-4 text-2xl opacity-20 bounce-1">
+            🎥
+          </div>
+          <div className="absolute bottom-4 right-4 text-xl opacity-20 drift-1">
+            ▶️
+          </div>
+
+          <h2 className="text-2xl font-bold text-gray-800 mb-6 text-center relative z-10">
+            🎥 Видеоматериалы для родителей
+          </h2>
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+            <a
+              href="https://rutube.ru/video/f3184534dadc24ae0cbbfefc385c517b/?r=a"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-gradient-to-br from-red-50 to-red-100 rounded-lg p-4 hover:shadow-md transition-all duration-200 hover:scale-[1.02]"
+            >
+              <div className="bg-red-500 rounded-lg mb-3 h-32 flex items-center justify-center">
+                <div className="text-white text-3xl group-hover:scale-110 transition-transform">
+                  ▶️
+                </div>
+              </div>
+              <h3 className="font-semibold text-gray-800 text-sm mb-1">
+                Психология развития
+              </h3>
+              <p className="text-gray-600 text-xs">Основы детской психологии</p>
+            </a>
+
+            <a
+              href="https://rutube.ru/video/f89208f20fa74b68b35113125eca1adb/?r=a"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-4 hover:shadow-md transition-all duration-200 hover:scale-[1.02]"
+            >
+              <div className="bg-blue-500 rounded-lg mb-3 h-32 flex items-center justify-center">
+                <div className="text-white text-3xl group-hover:scale-110 transition-transform">
+                  ▶️
+                </div>
+              </div>
+              <h3 className="font-semibold text-gray-800 text-sm mb-1">
+                Общение с детьми
+              </h3>
+              <p className="text-gray-600 text-xs">
+                Эффективные методы коммуникации
+              </p>
+            </a>
+
+            <a
+              href="https://rutube.ru/video/20fc6d389c97a2b9cdf5f8762f96b54a/?r=a"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-4 hover:shadow-md transition-all duration-200 hover:scale-[1.02]"
+            >
+              <div className="bg-green-500 rounded-lg mb-3 h-32 flex items-center justify-center">
+                <div className="text-white text-3xl group-hover:scale-110 transition-transform">
+                  ▶️
+                </div>
+              </div>
+              <h3 className="font-semibold text-gray-800 text-sm mb-1">
+                Воспитание без стресса
+              </h3>
+              <p className="text-gray-600 text-xs">
+                Методы позитивного воспитания
+              </p>
+            </a>
+
+            <a
+              href="https://rutube.ru/video/9d60a0dd50c58f334043d7c29cdf044e/?r=a"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-gradient-to-br from-purple-50 to-purple-100 rounded-lg p-4 hover:shadow-md transition-all duration-200 hover:scale-[1.02]"
+            >
+              <div className="bg-purple-500 rounded-lg mb-3 h-32 flex items-center justify-center">
+                <div className="text-white text-3xl group-hover:scale-110 transition-transform">
+                  ▶️
+                </div>
+              </div>
+              <h3 className="font-semibold text-gray-800 text-sm mb-1">
+                Эмоциональное развитие
+              </h3>
+              <p className="text-gray-600 text-xs">
+                Работа с детскими эмоциями
+              </p>
+            </a>
+
+            <a
+              href="https://rutube.ru/video/7791703c0356be7df3c32d3a3212bb6f/?r=a"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-gradient-to-br from-orange-50 to-orange-100 rounded-lg p-4 hover:shadow-md transition-all duration-200 hover:scale-[1.02]"
+            >
+              <div className="bg-orange-500 rounded-lg mb-3 h-32 flex items-center justify-center">
+                <div className="text-white text-3xl group-hover:scale-110 transition-transform">
+                  ▶️
+                </div>
+              </div>
+              <h3 className="font-semibold text-gray-800 text-sm mb-1">
+                Границы и правила
+              </h3>
+              <p className="text-gray-600 text-xs">
+                Установление здоровых границ
+              </p>
+            </a>
+
+            <a
+              href="https://rutube.ru/video/ae3660fbf449d48c38cda214751c8c39/?r=a"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-gradient-to-br from-pink-50 to-pink-100 rounded-lg p-4 hover:shadow-md transition-all duration-200 hover:scale-[1.02]"
+            >
+              <div className="bg-pink-500 rounded-lg mb-3 h-32 flex items-center justify-center">
+                <div className="text-white text-3xl group-hover:scale-110 transition-transform">
+                  ▶️
+                </div>
+              </div>
+              <h3 className="font-semibold text-gray-800 text-sm mb-1">
+                Семейные отношения
+              </h3>
+              <p className="text-gray-600 text-xs">
+                Укрепление семейных связей
+              </p>
+            </a>
+
+            <a
+              href="https://rutube.ru/video/c3387b21b66a07b4be483abb2b6001e9/?r=a"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-gradient-to-br from-teal-50 to-teal-100 rounded-lg p-4 hover:shadow-md transition-all duration-200 hover:scale-[1.02]"
+            >
+              <div className="bg-teal-500 rounded-lg mb-3 h-32 flex items-center justify-center">
+                <div className="text-white text-3xl group-hover:scale-110 transition-transform">
+                  ▶️
+                </div>
+              </div>
+              <h3 className="font-semibold text-gray-800 text-sm mb-1">
+                Адаптация к школе
+              </h3>
+              <p className="text-gray-600 text-xs">
+                Подготовка к школьной жизни
+              </p>
+            </a>
+
+            <a
+              href="https://rutube.ru/video/6885a8c11b9f05e6a225bccaa5b3c02c/?r=a"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-lg p-4 hover:shadow-md transition-all duration-200 hover:scale-[1.02]"
+            >
+              <div className="bg-indigo-500 rounded-lg mb-3 h-32 flex items-center justify-center">
+                <div className="text-white text-3xl group-hover:scale-110 transition-transform">
+                  ▶️
+                </div>
+              </div>
+              <h3 className="font-semibold text-gray-800 text-sm mb-1">
+                Развитие творчества
+              </h3>
+              <p className="text-gray-600 text-xs">
+                Творческое развитие ребёнка
+              </p>
+            </a>
+
+            <a
+              href="https://rutube.ru/video/be8082bb9a13758f6c7a79794b5babcc/?r=a"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-lg p-4 hover:shadow-md transition-all duration-200 hover:scale-[1.02]"
+            >
+              <div className="bg-yellow-500 rounded-lg mb-3 h-32 flex items-center justify-center">
+                <div className="text-white text-3xl group-hover:scale-110 transition-transform">
+                  ▶️
+                </div>
+              </div>
+              <h3 className="font-semibold text-gray-800 text-sm mb-1">
+                Мотивация к учёбе
+              </h3>
+              <p className="text-gray-600 text-xs">
+                Как заинтересовать ребёнка
+              </p>
+            </a>
+
+            <a
+              href="https://rutube.ru/video/108224362bcbca542023509321551435/?r=a"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="group bg-gradient-to-br from-rose-50 to-rose-100 rounded-lg p-4 hover:shadow-md transition-all duration-200 hover:scale-[1.02]"
+            >
+              <div className="bg-rose-500 rounded-lg mb-3 h-32 flex items-center justify-center">
+                <div className="text-white text-3xl group-hover:scale-110 transition-transform">
+                  ▶️
+                </div>
+              </div>
+              <h3 className="font-semibold text-gray-800 text-sm mb-1">
+                Конфликты в семье
+              </h3>
+              <p className="text-gray-600 text-xs">
+                Решение семейных конфликтов
+              </p>
+            </a>
+          </div>
+        </section>
+
         {/* Additional Resources */}
         <section
           id="additional-materials"
